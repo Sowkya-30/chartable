@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chartable Help Center - Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Chartable Help Center</h1>
+        <input type="text" id="searchBar" placeholder="Search for articles...">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Popular Articles</h2>
+        <div id="articles">
+            <div class="article">
+                <h3>How to Use Chartable</h3>
+                <p>Learn how to set up and use Chartable for your podcasts.</p>
+            </div>
+            <div class="article">
+                <h3>Understanding Analytics</h3>
+                <p>Break down your audience insights and track your podcast growth.</p>
+            </div>
+            <div class="article">
+                <h3>Data Privacy and Security</h3>
+                <p>Learn how we protect your data and maintain user privacy.</p>
+            </div>
+        </div>
+
+        <!-- 🚀 Sentiment Analysis Section -->
+        <h2>Sentiment Analysis Tool</h2>
+        <textarea id="reviewInput" placeholder="Write your review here..."></textarea>
+        <button onclick="analyzeSentiment()">Analyze Sentiment</button>
+        <p id="sentimentResult"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
