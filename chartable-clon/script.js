@@ -18,7 +18,7 @@ async function analyzeSentiment() {
 
     lastRequestTime = currentTime; // Update the last request time
 
-    const apiKey = "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"; // Replace with your actual API key
+    const apiKey = "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"; // Replace with your actual API key
 
     try {
         let response = await fetch("https://api.openai.com/v1/chat/completions", {
